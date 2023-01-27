@@ -1,0 +1,48 @@
+.naveBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0f52ba;
+  padding: 2em;
+}
+
+.naveBar .logo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 20px;
+  right: 85%;
+  cursor: pointer;
+}
+.naveBar .buttonShoppingCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bolder;
+  width: 80px;
+  height: 30px;
+  border: solid #444 1px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 85%;
+  cursor: pointer;
+}
+.buttonShoppingCard:hover{
+  border: solid #fff 2px;
+  background-color: #71a4f0;
+  color: #ffffff;
+}
+.icon {
+  font-size: 1.4rem;
+}
+.unid {
+  margin-bottom: 2.5px;
+}

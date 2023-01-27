@@ -1,0 +1,44 @@
+{
+  "myProductsBug": [
+    [
+      {
+        "id": 6,
+        "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/ipadair.webp",
+        "name": "iPad",
+        "price": 4200
+      },
+      {
+        "id": 7,
+        "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperx-cloudrevolver.webp",
+        "name": "Headset Cloud Revolver",
+        "price": 1000
+      },
+      {
+        "id": 8,
+        "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperxcloudstinger.webp",
+        "name": "Headset Cloud Stinger",
+        "price": 600
+      }
+    ],
+    [
+      {
+        "id": 6,
+        "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/ipadair.webp",
+        "name": "iPad",
+        "price": 4200
+      },
+      {
+        "id": 7,
+        "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperx-cloudrevolver.webp",
+        "name": "Headset Cloud Revolver",
+        "price": 1000
+      },
+      {
+        "id": 8,
+        "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperxcloudstinger.webp",
+        "name": "Headset Cloud Stinger",
+        "price": 600
+      }
+    ]
+  ]
+}

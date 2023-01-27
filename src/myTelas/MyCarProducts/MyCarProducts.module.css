@@ -1,0 +1,90 @@
+.MyCarProducts {
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  width: 500px;
+  position: fixed;
+  top: 10px;
+  left: 55%;
+  z-index: 200;
+  background-color: #0f52ba;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.ContentProducts {
+  height: 100%;
+  overflow-y: scroll;
+}
+.ContentProducts::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.ContentProducts::-webkit-scrollbar-track {
+  background: #0f52ba;        /* color of the tracking area */
+}
+
+.ContentProducts::-webkit-scrollbar-thumb {
+  background-color: #ffff;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #0f52ba;  /* creates padding around scroll thumb */
+}
+.MyCarProducts .myBug {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.MyCarProducts .myBug .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.MyCarProducts .myBug .header .title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  color: #ffff;
+  font-weight: bold;
+  max-width: 60%;
+}
+.MyCarProducts .myBug .header .closedButton {
+  color: #000;
+  font-size: 2rem;
+}
+.MyCarProducts .myBug .header .closedButton:hover {
+  color: #ffff;
+}
+.MyCarProducts .myBug .myProducts {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.MyCarProducts .myBug .contentTotal .ToPay{
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 15px;
+  color: rgb(1, 1, 97);
+}
+.MyCarProducts .myBug .contentTotal .ToPay span{
+  color: rgb(1, 1, 97)
+}
+.MyCarProducts .myBug .contentTotal .payButton{
+  width: 500px;
+  height: 70px;
+  font-size: 2em;
+  font-weight: 700;
+  color: #ffff;
+  background-color: #000;
+  cursor: pointer;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+

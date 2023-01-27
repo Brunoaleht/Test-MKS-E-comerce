@@ -1,0 +1,16 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEEEEE;
+  color: black;
+  padding: 1em;
+
+}
+.copy{
+  margin: 15px;
+}
+.span{
+  font-weight: bold;
+  color: #0f52ba;
+}
