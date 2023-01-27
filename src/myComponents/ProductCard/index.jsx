@@ -2,14 +2,8 @@ import { FaTrashAlt } from 'react-icons/fa';
 import styles from './ProductCard.module.css';
 import { useState } from 'react';
 
-type props = {
-  name: string;
-  photo: string;
-  price: number;
-  id:number;
-  handleClick: Function;
-};
-export const ProductCard = ({ id, name, photo, price, handleClick }: props) => {
+
+export const ProductCard = ({ id, name, photo, price, handleClick }) => {
   const [counter, setCounter] = useState(1);
   const incrementCounter = () => {
     return setCounter((c) => c + 1);
@@ -46,3 +40,10 @@ export const ProductCard = ({ id, name, photo, price, handleClick }: props) => {
     </div>
   );
 };
+ProductCard.propTypes = {
+  id: P.number.isRequired;
+  name: P.string.isRequired;
+  photo: P.string.isRequired;
+  price: P.number.isRequired;
+  handleClick: P.func.isRequired;
+}
