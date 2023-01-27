@@ -1,7 +1,6 @@
-import P from 'prop-types'
+import P from 'prop-types';
 import styles from './PostCard.module.css';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
-
 
 export const PostCard = ({ id, name, photo, description, price, BuyClick }) => {
   return (
@@ -22,10 +21,10 @@ export const PostCard = ({ id, name, photo, description, price, BuyClick }) => {
   );
 };
 PostCard.propTypes = {
-  id: P.number.isRequired;
-  name: P.string.isRequired;
-  description: P.string.isRequired;
-  photo: P.string.isRequired;
-  price: P.number.isRequired;
-  BuyClick: P.func.isRequired;
-}
+  id: P.number.isRequired,
+  name: P.string.isRequired,
+  description: P.string.isRequired,
+  photo: P.string.isRequired,
+  price: P.number.isRequired,
+  BuyClick: P.func.isRequired,
+};
