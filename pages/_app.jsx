@@ -6,4 +6,4 @@ export default function App({ Component, pageProps }) {
 App.propTypes = {
   Component: P.element,
   pageProps: P.element,
-}
+};
