@@ -1,5 +1,3 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { BackCart } from '../src/myLayout/BackCart';
 import { MyCarProducts } from '../src/myTelas/MyCarProducts';
