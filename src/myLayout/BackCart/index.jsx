@@ -1,4 +1,4 @@
-import P from 'prop-types'
+import P from 'prop-types';
 import styles from './BackCart.module.css';
 
 export const BackCart = ({ show, Click }) => {
@@ -6,5 +6,5 @@ export const BackCart = ({ show, Click }) => {
 };
 BackCart.propTypes = {
   show: P.bool.isRequired,
-  Click: P.func.isRequired
-}
+  Click: P.func.isRequired,
+};

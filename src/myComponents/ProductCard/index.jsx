@@ -1,4 +1,4 @@
-import P from 'prop-types'
+import P from 'prop-types';
 import { FaTrashAlt } from 'react-icons/fa';
 import styles from './ProductCard.module.css';
 import { useState } from 'react';

@@ -1,4 +1,4 @@
-import P from 'prop-types'
+import P from 'prop-types';
 import styles from './NaveBar.module.css';
 import { GiShoppingCart } from 'react-icons/gi';
 
@@ -20,4 +20,4 @@ export const NaveBar = ({ Click, numberBugItens }) => {
 NaveBar.propTypes = {
   Click: P.func.isRequired,
   numberBugItens: P.number.isRequired,
-}
+};

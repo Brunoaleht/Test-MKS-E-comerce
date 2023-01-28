@@ -1,8 +1,8 @@
 import { ProductCard } from '../ProductCard';
 import styles from './Products.module.css';
 import { useState } from 'react';
-import P from 'prop-types'
-export const Products = ({myCartProducts, clickRemoveItem}) => {
+import P from 'prop-types';
+export const Products = ({ myCartProducts, clickRemoveItem }) => {
   return (
     <div className={styles.products}>
       {myCartProducts.map((product) => (

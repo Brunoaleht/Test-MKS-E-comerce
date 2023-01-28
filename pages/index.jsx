@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { BackCart } from '../src/myLayout/BackCart';
 import { MyCarProducts } from '../src/myTelas/MyCarProducts';
 import { Posts } from '../src/myComponents/Posts';
@@ -32,7 +32,7 @@ export default function Ecommerce() {
   //Used the json-server, represents the products purchased
   function handleSubmitClick(bug) {
     //inicializando o cost e o serviçe
-    setPurchasedProducts(bug)
+    setPurchasedProducts(bug);
 
     fetch('http://localhost:5000/myProductsBug', {
       method: 'POST',

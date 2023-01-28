@@ -1,12 +1,10 @@
-
-import P from 'prop-types'
+import P from 'prop-types';
 import { useState, useEffect } from 'react';
 import { PostCard } from '../PostCard';
 import styles from './Posts.module.css';
 
-
-export const Posts = ({AddItens}) => {
-  const [postsProducts, setPostsProducts] = useState([])
+export const Posts = ({ AddItens }) => {
+  const [postsProducts, setPostsProducts] = useState([]);
   useEffect(() => {
     const loadPost = async () => {
       const postsResp = await fetch(
@@ -17,7 +15,6 @@ export const Posts = ({AddItens}) => {
     };
     loadPost();
   }, []);
-
 
   return (
     <div className={styles.postsDisplay}>
@@ -44,4 +41,4 @@ export const Posts = ({AddItens}) => {
 };
 Posts.propTypes = {
   AddItens: P.func.isRequired,
-}
+};
