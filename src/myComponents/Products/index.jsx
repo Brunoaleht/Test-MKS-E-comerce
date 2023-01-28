@@ -1,6 +1,5 @@
 import { ProductCard } from '../ProductCard';
 import styles from './Products.module.css';
-import { useState } from 'react';
 import P from 'prop-types';
 export const Products = ({ myCartProducts, clickRemoveItem }) => {
   return (
@@ -17,4 +16,8 @@ export const Products = ({ myCartProducts, clickRemoveItem }) => {
       ))}
     </div>
   );
+};
+Products.propTypes = {
+  myCartProducts: P.array.isRequired,
+  clickRemoveItem: P.func.isRequired,
 };

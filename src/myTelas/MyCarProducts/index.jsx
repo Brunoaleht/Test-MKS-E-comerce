@@ -1,9 +1,6 @@
 import P from 'prop-types';
-
 import { FaRegTimesCircle } from 'react-icons/fa';
-
 import styles from './MyCarProducts.module.css';
-
 import { Products } from '../../myComponents/Products';
 
 export const MyCarProducts = ({ show, closedClick, myCart, removeItem, SubmitClick }) => {

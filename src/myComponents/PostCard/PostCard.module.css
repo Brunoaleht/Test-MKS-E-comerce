@@ -7,25 +7,32 @@
   width: 217.56px;
   background-color: #fff;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.2) ;
-  border-radius: 20px;
+  border-radius: 8px;
   transition: transform 100ms ease-in-out;
 }
 .postCard:hover{
   transform: scale(1.05);
 }
+.imgDisplay{
+  display: flex;
+  justify-content: center;
+  max-height: 120px;
+  width: 100%;
+}
 .postCard img{
-  max-height: 110px;
-  width:90%;
-  margin: 7px;
+  height: 100%;
+  width: 70%;
   border-radius: 15px;
 }
+
+
 .contentInf{
   padding: 10px 10px 0px 10px;
   display: flex;
   justify-content: space-between
 }
 .title{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1em;
 }
 .price {
@@ -38,7 +45,7 @@
   background-color: #444;
   width: 70px;
   height: 30px;
-  border-radius: 17px;
+  border-radius: 10px;
 }
 .description {
   font-size: 11px;
@@ -55,9 +62,12 @@
   color: white;
   background-color: #0F52BA;
   border-color: #0F52BA;
-  border-end-end-radius: 20px;
-  border-end-start-radius: 20px;
-  font-weight: bold;
-  font-size: 1.3rem;
+  border-end-end-radius: 8px;
+  border-end-start-radius: 8px;
+  font-weight: 400;
+  font-size: 1rem;
   cursor: pointer;
+}
+.icon {
+  padding: 0px 10px 0px 10px;
 }
