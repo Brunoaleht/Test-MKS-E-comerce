@@ -45,7 +45,7 @@ export default function Ecommerce() {
   }
 
   return (
-    <div id="Loja" >
+    <div id="Loja">
       <NaveBar Click={() => setSideToggle(true)} numberBugItens={cart.length} />
       <div className={styles.app}>
         <MyCarProducts
