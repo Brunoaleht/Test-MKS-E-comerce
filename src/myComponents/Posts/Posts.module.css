@@ -1,7 +1,21 @@
 .postsDisplay{
+  overflow-y: auto;
   width: 1000px;
   height: 635px;
   background-color: #ffff;
+}
+.postsDisplay::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.postsDisplay::-webkit-scrollbar-track {
+  background: #ffff;        /* color of the tracking area */
+}
+
+.postsDisplay::-webkit-scrollbar-thumb {
+  background-color: #0f52ba;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #ffff;  /* creates padding around scroll thumb */
 }
 .posts {
   display: flex;

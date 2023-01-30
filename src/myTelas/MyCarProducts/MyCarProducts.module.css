@@ -1,12 +1,112 @@
+@media (min-width: 1000px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 55%;
+    z-index: 200;
+    width: 500px;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 500px;
+    height: 50px;
+  }
+}
+@media (min-width: 860px) and (max-width: 1000px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 48%;
+    z-index: 200;
+    width: 500px;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 500px;
+    height: 50px;
+  }
+}
+@media (min-width: 740px) and (max-width: 860px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 40%;
+    z-index: 200;
+    width: 500px;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 500px;
+    height: 50px;
+  }
+}
+@media (min-width: 640px) and (max-width: 740px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 30%;
+    width: 500px;
+    z-index: 200;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 500px;
+    height: 50px;
+  }
+}
+@media (min-width: 540px) and (max-width: 640px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 17%;
+    z-index: 200;
+    width: 500px;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 500px;
+    height: 50px;
+  }
+}
+@media (min-width: 478px) and (max-width: 539px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 3%;
+    z-index: 200;
+    width: 500px;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 500px;
+    height: 50px;
+  }
+}
+@media (min-width: 417px) and (max-width: 476px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 16%;
+    z-index: 200;
+    width: 380px;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 380px;
+    height: 50px;
+  }
+}
+@media (max-width: 417px) {
+  .MyCarProducts {
+    position: fixed;
+    top: 10px;
+    left: 16%;
+    z-index: 200;
+    width: 350px;
+  }
+  .MyCarProducts .myBug .contentTotal .payButton {
+    width: 380px;
+    height: 50px;
+  }
+}
+
 .MyCarProducts {
   box-sizing: border-box;
   margin: 0;
   border: none;
-  width: 500px;
-  position: fixed;
-  top: 10px;
-  left: 55%;
-  z-index: 200;
   background-color: #0f52ba;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -16,17 +116,17 @@
   overflow-y: scroll;
 }
 .ContentProducts::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 12px; /* width of the entire scrollbar */
 }
 
 .ContentProducts::-webkit-scrollbar-track {
-  background: #0f52ba;        /* color of the tracking area */
+  background: #0f52ba; /* color of the tracking area */
 }
 
 .ContentProducts::-webkit-scrollbar-thumb {
-  background-color: #ffff;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid #0f52ba;  /* creates padding around scroll thumb */
+  background-color: #ffff; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #0f52ba; /* creates padding around scroll thumb */
 }
 .MyCarProducts .myBug {
   height: 100%;
@@ -62,7 +162,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.MyCarProducts .myBug .contentTotal .ToPay{
+.MyCarProducts .myBug .contentTotal .ToPay {
   display: flex;
   justify-content: space-around;
   font-size: 2rem;
@@ -70,21 +170,18 @@
   margin: 15px;
   color: rgb(1, 1, 97);
 }
-.MyCarProducts .myBug .contentTotal .ToPay span{
-  color: rgb(1, 1, 97)
+.MyCarProducts .myBug .contentTotal .ToPay span {
+  color: rgb(1, 1, 97);
 }
-.MyCarProducts .myBug .contentTotal .payButton{
-  width: 500px;
-  height: 70px;
+.MyCarProducts .myBug .contentTotal .payButton {
   font-size: 2em;
   font-weight: 700;
   color: #ffff;
   background-color: #000;
   cursor: pointer;
 }
-.list{
+.list {
   display: flex;
   flex-direction: column;
   list-style: none;
 }
-

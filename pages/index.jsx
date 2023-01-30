@@ -5,6 +5,7 @@ import { Posts } from '../src/myComponents/Posts';
 import { Footer } from '../src/myLayout/Footer';
 import { NaveBar } from '../src/myLayout/NaveBar';
 import { Content } from '../src/myLayout/Content';
+import styles from './app.module.css';
 
 export default function Ecommerce() {
   const [sideToggle, setSideToggle] = useState(false);
@@ -44,19 +45,21 @@ export default function Ecommerce() {
   }
 
   return (
-    <div id="Loja">
+    <div id="Loja" >
       <NaveBar Click={() => setSideToggle(true)} numberBugItens={cart.length} />
-      <MyCarProducts
-        show={sideToggle}
-        closedClick={() => setSideToggle(false)}
-        myCart={cart}
-        removeItem={handleRemoveItem}
-        SubmitClick={handleSubmitClick}
-      />
-      <BackCart show={sideToggle} Click={() => setSideToggle(false)} />
-      <Content>
-        <Posts AddItens={handleAddProductToCart} />
-      </Content>
+      <div className={styles.app}>
+        <MyCarProducts
+          show={sideToggle}
+          closedClick={() => setSideToggle(false)}
+          myCart={cart}
+          removeItem={handleRemoveItem}
+          SubmitClick={handleSubmitClick}
+        />
+        <BackCart show={sideToggle} Click={() => setSideToggle(false)} />
+        <Content>
+          <Posts AddItens={handleAddProductToCart} />
+        </Content>
+      </div>
       <Footer />
     </div>
   );
